@@ -18,7 +18,7 @@ public class MathGameView {
             System.out.println("3. Level 3 (Multiplication)");
             System.out.println("4. Exit");
 
-            var input = InputUtil.input("Select the options menu");
+            var input = MathGameUtil.input("Select the options menu");
             switch (input) {
                 case "1" -> addition();
                 case "2" -> subtraction();
